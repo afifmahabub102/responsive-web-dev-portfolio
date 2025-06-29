@@ -1,0 +1,315 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+
+.text-pri{
+    color: #FD6E0A;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 125px 50px 125px;
+    
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+nav h3{
+    margin-left: 55px;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white ;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none; 
+}
+
+.banner-greeting{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner-discription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.banner-dp{
+    width: 580px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 180px;
+}
+
+.header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    
+}
+
+.section-title{
+      
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+
+}
+
+.section-discription{
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-bg{
+
+    background-color: #FFF8F3;
+}
+.about{
+    
+    padding: 130px 150px;
+    text-align:center;
+    margin-top:130px;
+    
+    
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+    
+    
+}
+
+.section-bg{
+    background-color: #FFFFFF;
+}
+
+.item-title{
+   font-weight:400;
+   font-size: 20px;  
+}
+
+.item-discription{
+   font-weight: 600;
+   font-size: 20px;
+
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-bg{
+    background-color: #FFFFFF;
+    padding: 0 3px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color:#181818 ;
+}
+
+.skill-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color:#757575;  
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+/*resume style*/
+.resume-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 25px;
+    margin-top: 110px;
+}
+
+.resume-column-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 30px;
+}
+
+.experience-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgba(71, 71, 71, 1);
+    margin-bottom: 10px;
+
+}
+
+.experience-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color:rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+    
+}
+
+.experience-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 30px;
+}
+.resume{
+    align-items: center;
+}
+
+.resume-btn{
+
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white ;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none; 
+    text-align: center;
+    margin: 50px 450px 113px 450px;
+
+}
+
+/*footer styles*/
+.footer-container{
+    display: flex;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"] , footer input[type="email"]{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 26%;
+    padding: 15px 350px 15px 30px;
+    border: none;
+    margin-bottom: 24px;
+
+}
+
+.icons{
+    margin-top: 50px;
+    gap: 30px;
+}
+
+footer textarea{
+    display: block;
+    margin-bottom: 24px;
+    border:none;
+    padding: 15px 0px 15px 30px;
+}
+
+.icons img{
+    margin-right: 24px;
+}
+
+.fa-download{
+    margin-right: 5px;
+}
+.fa-phone{
+    margin-right: 6px;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    .skill-container , .resume-container{
+         flex-direction: column;
+    }
+    .resume-btn{
+         font-size: 17px;
+         padding: 18px 15px;
+         margin: 50px 0px 113px 29%;
+    }
+    .resume-column{
+        margin-left: 5px;
+    }
+    
+}
