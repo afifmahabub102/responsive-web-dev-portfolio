@@ -300,7 +300,7 @@ footer textarea{
 
 
 @media screen and (max-width: 576px) {
-    .skill-container , .resume-container , footer ,.about-items{
+    .skill-container , .resume-container , footer ,.about-items , .banner , nav , nav > ul{
          flex-direction: column;
     }
     .resume-btn{
@@ -337,4 +337,25 @@ footer textarea{
         text-align: justify;
     }
 
+    .banner-dp {
+        width:100%;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+
+    .btn-primary {
+    
+        font-size: 15px;
+        margin: 0 5px 5px 0;
+    }
+  
+    nav > ul{
+        gap: 25px;
+    }
+    nav h3{
+        margin-left: 0px;
+    }
+
+    
 }
