@@ -300,7 +300,7 @@ footer textarea{
 
 
 @media screen and (max-width: 576px) {
-    .skill-container , .resume-container , footer{
+    .skill-container , .resume-container , footer ,.about-items{
          flex-direction: column;
     }
     .resume-btn{
@@ -320,7 +320,7 @@ footer textarea{
     }
     footer input[type="text"] , footer input[type="email"] , footer textarea{
         height: 25px;
-            padding: 15px 20px 15px 20px;
+        padding: 15px 20px 15px 20px;
         width:calc(100% - 40px);
     }
     footer input[type="submit"]{
@@ -330,8 +330,11 @@ footer textarea{
         margin-bottom: 10px;
         height:45px;
     }
+    .about{
+        padding: 20px 20px;
+    }
+    .section-discription{
+        text-align: justify;
+    }
 
-
-    
-    
 }
